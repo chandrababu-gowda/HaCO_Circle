@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Mulish:wght@600&display=swap");
+
+/* font-family: "Mulish", sans-serif; */
+/* font-family: 'Big Shoulders Display', cursive; */
+
+:root {
+  --pc: #2196f3;
+  --sc: #04273a;
+  --sc-l: #063955;
+  --neu: rgba(255, 255, 255, 0.694);
+}
+
+html {
+  font-size: 16px;
+  background-color: var(--sc);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mulish", sans-serif;
+  color: var(--neu);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+}
+
+.sec__nav {
+  background-color: var(--sc-l);
+}
+
+.nav__icon-Btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  padding-bottom: 2.5em;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navLinks__items {
+  text-decoration: none;
+  margin: 0.5em 0;
+}
+
+.hidden {
+  display: none;
+}
