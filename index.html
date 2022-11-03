@@ -1,73 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="phone.css" media="screen and (max-width:426px)" />
-    <link rel="stylesheet" href="style.css" media="screen and (min-width:426px)"/>
-    <style media="screen and (min-width:426px)"">
-      body::before {
-        content: "";
-        background: url(./logo.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        position: absolute;
-        top: 10%;
-        /* left: 0; */
-        width: 80%;
-        height: 80%;
-        z-index: -1;
-        opacity: 0.25;
-      }
-      .toggleBTN{
-        display: none;
-      }
-    </style>
-    <style media="screen and (max-width:426px)"">
-      body::before {
-        content: "";
-        background: url(./logo.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        position: absolute;
-        top: 0%;
-        left: 10%;
-        width: 80%;
-        height: 80%;
-        z-index: -1;
-        opacity: 0.25;
-      }
-    </style>
-    <title>Haco Circle</title>
-  </head>
-  <body>
-    <nav>
-      <div id="logo">
-        <img src="logo.png" alt="" />
-      </div>
-      <div class="toggleBTN"><img src="./hamburger.svg" alt=""></div>
-      <div class="navLinks hidden">
-        <a href="#">Home</a>
-        <!-- <a href="#">About Us</a> -->
-        <a href="./html/upcomingEvents.html">Upcoming Events</a>
-        <a href="./html/team.html">Team</a>
-        <a href="./html/contact.html">Contact Us</a>
-      </div>
-    </nav>
-    <section id="hero">
-      <h1>HaCO <span id="weight">Circle</span></h1>
-      <h4>Always have a FUN, be HAPPY with your Life</h4>
-      <p>
-        HaCO Circle is an Engineering endowment circle of students. Our mission
-        is to provide a platform for passionate, motivated engineering students
-        to voice their concerns, and lead projects about various issues in our
-        society. While leading their own campaigns, students are able to
-        collaborate and along side other students.
-      </p>
-    </section>
-    <script src="./index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Haco Circle</title>
+</head>
+
+<body>
+  <nav>
+    <div id="logo">
+      <img src="logo.png" alt="" />
+    </div>
+    <div class="toggleBTN"><img src="./hamburger.svg" alt=""></div>
+    <div class="navLinks hidden">
+      <a href="#">Home</a>
+      <!-- <a href="#">About Us</a> -->
+      <a href="./html/upcomingEvents.html">Upcoming Events</a>
+      <a href="./html/team.html">Team</a>
+      <a href="./html/contact.html">Contact Us</a>
+    </div>
+  </nav>
+  <section id="hero">
+    <h1>HaCO <span id="weight">Circle</span></h1>
+    <h4>Always have a FUN, be HAPPY with your Life</h4>
+    <p>
+      HaCO Circle is an Engineering endowment circle of students. Our mission
+      is to provide a platform for passionate, motivated engineering students
+      to voice their concerns, and lead projects about various issues in our
+      society. While leading their own campaigns, students are able to
+      collaborate and along side other students.
+    </p>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
 </html>
