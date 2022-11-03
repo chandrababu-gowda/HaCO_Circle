@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../phone.css" media="screen and (max-width:426px)" />
-    <link rel="stylesheet" href="../style.css" media="screen and (min-width:426px)"/>
-    <style media="screen and (min-width:426px)"">
-      .toggleBTN{
-        display: none;
-      }
-    </style>
-    <title>HaCO | Upcoming Events</title>
-  </head>
-  <body>
-    <nav>
-      <div id="logo">
-        <img src="../logo.png" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css" />
+  <title>HaCO | Upcoming Events</title>
+</head>
+
+<body>
+  <section class="section--1 sec__nav">
+    <div class="container row">
+      <div class="nav__icon-Btn">
+        <div class="col logo">
+          <img src="../images/haco.png" alt="" />
+        </div>
+        <div class="col toggleBTN">
+          <img src="../images/hamburger.svg" alt="">
+        </div>
       </div>
-      <div class="toggleBTN"><img src="../hamburger.svg" alt=""></div>
-      <div class="navLinks hidden">
-        <a href="../index.html">Home</a>
-        <!-- <a href="#">About Us</a> -->
-        <a href="#">Upcoming Events</a>
-        <a href="./team.html">Team</a>
-        <a href="./contact.html">Contact Us</a>
+      <div class="navLinks hidden row">
+        <a class="col navLinks__items" href="../index.html">Home</a>
+        <a class="col navLinks__items" href="./upcomingEvents.html">Upcoming Events</a>
+        <a class="col navLinks__items" href="./team.html">Team</a>
+        <a class="col navLinks__items" href="./contact.html">Contact Us</a>
       </div>
-    </nav>
-    <section id="upcomingEvents">
-      <h1>HaCKATHON 7.0<span>[COMING SOON]</span></h1>
-      <h3>Practice Problem Statement:</h3>
-      <h4>World Army vs Aliens</h4>
-      <p>
+    </div>
+  </section>
+  <section class="section--2 sec__upcomingEvents">
+    <div class="container row">
+      <h1 class="sec__heading">HaCKATHON 7.0<span class="sec__heading sec__heading--fs">[COMING SOON]</span></h1>
+      <h3 class="sec__sub-heading">Practice Problem Statement:</h3>
+      <h4 class="sec__sub-heading">World Army vs Aliens</h4>
+      <p class="sec__paragrah">
         The world is going to be attacked by the aliens. The space intelligence
         department has raised an alarm and the world armies are coming together
         to fight them. The planning and strategizing is being done to make the
@@ -39,35 +41,37 @@
         into action. The missiles are targeted to destroy the alien ships in
         space and disable them to land on the Earth.
       </p>
-      <p>
+      <p class="sec__paragrah">
         The army is planning to launch the attack at A time (hh mm) to get an
         advantage. For each attack, they know the time the missile will require
         to hit the coming alien ship. They all are busy in preparation and want
         to know the time at which the blast will occur and the alien ship will
         be destroyed in pieces. Can you find the time of the blast ?
       </p>
-      <p>
+      <p class="sec__paragrah">
         Note: The World Army follows a 24-hour time format and you need to find
         the time of blast accordingly. The time will be in the hh mm format.
       </p>
-      <p>
-        <span>Input Format </span><br />
+      <p class="sec__paragrah">
+        <span class="sec__paragrah">Input Format </span><br />
         The first line of input consists of the launch time in hh mm format
         separated by space. The second line of input consists of the travel time
         for the missile in hh mm format separated by space.
       </p>
-      <p>
-        <span>Constraints:</span> <br />
-        00<= hh <=23 <br /> 00<= mm <=59
-      </p>
-      <p>
-        <span>Output Format</span> <br />
-        Print the time at which the blast will occur and the spaceship will be
-        destroyed.
-      </p>
-      <p>Sample TestCase : <br> Input  19 50 & 02 20 <br>
-        Output 22 10</p>
-    </section>
-    <script src="../index.js"></script>
-  </body>
+      <p class="sec__paragrah">
+        <span class="sec__paragrah">Constraints:</span> <br />
+        00
+        <= hh <=23 <br /> 00<= mm <=59 </p>
+          <p class="sec__paragrah">
+            <span>Output Format</span> <br />
+            Print the time at which the blast will occur and the spaceship will be
+            destroyed.
+          </p>
+          <p class="sec__paragrah">Sample TestCase : <br> Input 19 50 & 02 20 <br>
+            Output 22 10</p>
+    </div>
+  </section>
+  <script src="../index.js"></script>
+</body>
+
 </html>

@@ -34,6 +34,32 @@ img {
   padding: 1em 1.5em;
 }
 
+.sec__heading {
+  font-size: 2.8rem;
+  color: var(--pc);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 900;
+}
+
+.sec__heading--fs {
+  font-size: 1.8rem;
+}
+
+.sec__sub-heading {
+  color: var(--pc);
+  font-size: 1.5rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 900;
+  margin-bottom: 0.25em;
+}
+
+.sec__paragrah {
+  font-size: 1.125rem;
+  margin: 0.8em 0;
+}
+
+/* Navbar */
+
 .sec__nav {
   background-color: var(--sc-l);
 }
@@ -62,4 +88,94 @@ img {
 
 .hidden {
   display: none;
+}
+
+/* Hero Section */
+
+.sec__hero {
+  /* border: 2px solid red; */
+  text-align: center;
+  /* padding: 4rem 0; */
+}
+
+.sec__hero__bg {
+  /* background-image: url(./images/haco.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  padding: 4rem 0;
+  /* opacity: 0.3; */
+}
+
+.sec__hero__heading {
+  color: var(--pc);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.8rem;
+  font-weight: 900;
+}
+
+.sec__hero__heading--weight {
+  font-weight: 700;
+}
+
+.sec__hero__sub-heading {
+  color: var(--pc);
+  font-size: 0.75rem;
+}
+
+.sec__hero__paragraph {
+  font-size: 1.125rem;
+  margin: 0.4em auto;
+  max-width: 550px;
+  text-align: center;
+}
+
+/* Our Team */
+.profileCards {
+  border: 2px solid var(--pc);
+  /* width: 25%; */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6em 0;
+  gap: 0.5em;
+  margin: 0.5em 0em;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  /* margin: 0 auto; */
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Contact Page */
+
+.inputs {
+  width: 100%;
+  /* height: 2.5rem; */
+  margin: 10px 0px;
+  padding: 10px;
+  border: 2px solid var(--pc);
+  background-color: var(--sc);
+}
+
+.contact button {
+  width: 100%;
+  /* height: 2.5rem; */
+  margin: 10px 0px;
+  padding: 10px;
+  border: 2px solid var(--pc);
+  background-color: var(--pc);
+  color: var(--sc);
+  transition: background-color, 0.25s;
+}
+
+.contact button:hover {
+  background-color: var(--sc);
+  color: var(--pc);
 }
